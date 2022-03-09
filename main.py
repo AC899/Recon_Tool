@@ -5,10 +5,9 @@ import time
 import os
 import requests
 from ping3 import ping, verbose_ping
-from console_progressbar import ProgressBar
 import time
 import json
-from colorama import init, Fore
+from urllib.request import urlopen
 
 
 ascii_banner = pyfiglet.figlet_format("RECON TOOL", font = "slant")
