@@ -15,10 +15,6 @@ time.sleep(0.5)
 
 class Main:
 
-    def __init__(self):
-        pass
-
-
     def NSIP(self):
         while True:
             try:
@@ -109,11 +105,3 @@ class Main:
 
 Object = Main()
 Object.NSIP()
-
-#     url = requests.get("https://raw.githubusercontent.com/AC899/Recon_Tool/master/p&s.json")
-#     text = url.text
-#     data = json.loads(text)
-
-#TO DO LIST:
-#add progress bars to functions
-#make it go back to dirbuster at wordchecker - use try statement from port scan
